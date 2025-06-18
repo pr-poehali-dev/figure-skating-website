@@ -60,8 +60,13 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="py-20 bg-gradient-to-br from-ice-50 to-white"
+      className="py-20 bg-gradient-to-bl from-winter-peach via-pastel-purple to-winter-lavender relative overflow-hidden"
     >
+      {/* Beautiful floating elements */}
+      <div className="absolute top-16 left-16 w-20 h-20 bg-gradient-to-br from-winter-pink/30 to-winter-purple/30 rounded-full blur-xl animate-pulse"></div>
+      <div className="absolute top-1/3 right-20 w-32 h-32 bg-gradient-to-br from-winter-mint/25 to-winter-blue/25 rounded-full blur-2xl"></div>
+      <div className="absolute bottom-16 left-1/4 w-24 h-24 bg-gradient-to-br from-winter-peach/35 to-pastel-pink/35 rounded-full blur-xl"></div>
+      <div className="absolute bottom-1/4 right-1/3 w-16 h-16 bg-gradient-to-br from-winter-purple/40 to-winter-lavender/40 rounded-full blur-lg animate-pulse"></div>
       <div className="container mx-auto px-4">
         {/* Services */}
         <div className="mb-20">

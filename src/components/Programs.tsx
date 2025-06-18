@@ -50,7 +50,13 @@ const Programs = () => {
   ];
 
   return (
-    <section id="programs" className="py-20 bg-white">
+    <section
+      id="programs"
+      className="py-20 bg-gradient-to-r from-pastel-lavender via-white to-pastel-mint relative"
+    >
+      {/* Decorative background elements */}
+      <div className="absolute top-10 right-20 w-28 h-28 bg-gradient-to-br from-winter-purple/20 to-winter-pink/20 rounded-full blur-2xl"></div>
+      <div className="absolute bottom-20 left-10 w-36 h-36 bg-gradient-to-br from-winter-mint/25 to-winter-blue/25 rounded-full blur-3xl"></div>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl text-ice-900 mb-4">

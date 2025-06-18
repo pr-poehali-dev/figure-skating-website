@@ -95,6 +95,24 @@ export default {
           400: "#fafafa",
           500: "#f8f8f8",
         },
+        // Gentle pastel colors
+        pastel: {
+          pink: "#fdf2f8",
+          blue: "#eff6ff",
+          purple: "#faf5ff",
+          mint: "#f0fdfa",
+          peach: "#fff7ed",
+          lavender: "#f8fafc",
+        },
+        // Bright winter colors
+        winter: {
+          pink: "#fce7f3",
+          blue: "#dbeafe",
+          purple: "#e9d5ff",
+          mint: "#ccfbf1",
+          peach: "#fed7aa",
+          lavender: "#e2e8f0",
+        },
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
